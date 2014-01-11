@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "clang": {
+      "path": "."
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "subversion": {
+      "locked_version": "1.1.2"
+    },
+    "apache2": {
+      "locked_version": "1.8.14"
+    },
+    "windows": {
+      "locked_version": "1.12.6"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    }
+  }
+}

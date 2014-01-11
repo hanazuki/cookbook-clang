@@ -1,0 +1,12 @@
+default.clang.version = 3.4
+default.clang.prefix = '/usr/local'
+default.clang.source.directory = '/usr/local/src/llvm'
+default.clang.source.repository = 'http://llvm.org/svn/llvm-project'
+default.clang.build.jobs = 1
+default.clang.build.directory = '/tmp/clang-llvm'
+default.clang.build.skip_tests = false
+default.clang.build.optimized = true
+default.clang.build.assertions = true
+default.clang.build.configure_options = ['--disable-docs']
+default.clang.build.make_options = []
+default.clang.build.workaround_sw_vers = true

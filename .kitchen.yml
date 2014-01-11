@@ -1,0 +1,23 @@
+---
+driver:
+  name: docker
+driver_config:
+  use_sudo: false
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-12.04
+  - name: centos-6.4
+
+suites:
+  - name: default
+    run_list:
+      - clang::default
+    attributes:
+      clang:
+        version: 3.2
+        build:
+          jobs: 4
+          skip_tests: true
