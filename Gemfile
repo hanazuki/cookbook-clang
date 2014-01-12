@@ -1,9 +1,9 @@
 # -*- ruby -*-
 source 'https://rubygems.org'
 
-gem 'berkshelf'
-
-group :test do
+group :development, :test do
+  gem 'berkshelf'
   gem 'test-kitchen'
   gem 'kitchen-docker'
+  gem 'serverspec'
 end
